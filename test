@@ -1,0 +1,13 @@
+
+function Createbullet(){
+  if(frameCount%100===0){
+  bullet=createSprite(random(500,900),-50);
+  bullet.addImage(bulletImage);
+  bullet.scale=0.3
+  bullet.velocityX=-4;
+  bulley.veocityY=4;
+  bulletGroup.add(bullet);
+  bullet.debug=true;
+  //bullet.setCollider("circle",0,0,80);
+  }
+}
